@@ -1,13 +1,4 @@
-# console.tablefy
-
-finally a table easy and recursive!
-
-```js
-
-// just
-require('console.tablefy');
-// or
-const log_tbly = require('console.tablefy');
+var log_tbl = require('console.tablefy');
 
 var array = [
   {
@@ -32,19 +23,19 @@ Aldus PageMaker including versions of Lorem Ipsum.`
   {
     name: 'Emily',
     second: [
-      [ "John", "Smith" ],
-      [ "Jane", "Doe" ],
+      ["John", "Smith"],
+      ["Jane", "Doe"],
       [
         "Emily",
         [
-          [ "John", "Smith" ],
+          ["John", "Smith"],
           [
             [
-              [ "John", "Smith" ], [ "Jane", "Doe" ], [ "Emily", "Jones" ]
+              ["John", "Smith"], ["Jane", "Doe"], ["Emily", "Jones"]
             ],
               "Doe"
           ],
-          [ "Emily", "Jones" ]
+          ["Emily", "Jones"]
         ]
       ]
     ],
@@ -105,29 +96,9 @@ config = {
   // }
 };
 
-/*
-  console.tablefy(array1[, array1, ..., config])  
-*/
-
-// calls examples
 console.tablefy(array, config);
-// or
-log_tbly(array, config);
-
-// any items
 console.tablefy('test', [{ test: 'test' }], config);
 
-// return string
 config.log = false;
 var tables = console.tablefy([ [ "John", "Smith" ], [ "Jane", "Doe" ] ], config);
 console.log(...tables);
-
-```
-
-## Examples:
-
-![table](http://image.ibb.co/kWJndR/Captura_de_Tela_2017_11_20_a_s_11_35_29.png)
-
-## License
-
-  [MIT](LICENSE)

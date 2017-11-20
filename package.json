@@ -1,8 +1,8 @@
 {
   "name": "console.tablefy",
   "version": "1.0.0",
-  "description": "",
-  "repositories": "",
+  "description": "recursive tablefy JSON, Array and string",
+  "repositories": "https://github.com/FellipeP/console-tablefy.git",
   "repository": {
     "type": "git",
     "url": "https://github.com/FellipeP/console-tablefy.git"
