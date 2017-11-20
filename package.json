@@ -1,0 +1,19 @@
+{
+  "name": "console.tablefy",
+  "version": "1.0.0",
+  "description": "",
+  "repositories": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FellipeP/console-tablefy.git"
+  },
+  "main": "console.tablefy.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "table", "console"
+  ],
+  "author": "Fellipe Paiva <fellipe.paiva@newaveelecom.com.br> (http://newavetele.com)",
+  "license": "MIT"
+}
